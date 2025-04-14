@@ -2,3 +2,7 @@
 body {
     font-family: 'LXGW WenKai Light';
 }
+
+code, pre  {
+    font-family: 'Maple Mono CN Light';
+}
