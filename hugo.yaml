@@ -31,12 +31,26 @@ Services:
 
 Params:
   #homeTitle: Beautiful Hugo Theme # Set a different text for the header on the home page
-  subtitle: UML Group Daily Log
+  subtitle: UML Group Blog
 
   mainSections:
     - post
     - posts
   dateFormat: January 2, 2006
+  homeInfoParams:
+    Title: UML Group Blog
+    Content: >
+      👋 Welcome to UML Group Blog!
+
+      - 关于我们：[about us](./about)
+
+      - 这是UML小组的博客，记录了UML小组的日常工作和学习。
+
+      - 在[Github](https://github.com/BIT-UML-Group)上查看我们的项目。
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: https://github.com/BIT-UML-Group
 
   #cusdisID: XXX # Get your App id from cusdis.com
   #hideAuthor: true
@@ -61,7 +75,7 @@ menu:
       url: ""
       weight: 1
     - name: About
-      url: page/about/
+      url: about/
       weight: 3
     - name: Tags
       url: tags
