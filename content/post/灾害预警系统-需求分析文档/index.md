@@ -1,6 +1,8 @@
 ---
 title: 灾害预警系统-需求分析文档
 date: 2025-04-17
+mermaid: true
+ShowToc: true
 tags:
   - 灾害预警系统
   - 需求分析文档
